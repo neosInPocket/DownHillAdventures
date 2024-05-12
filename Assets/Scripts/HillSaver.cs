@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 public class HillSaver : MonoBehaviour
 {
@@ -12,9 +14,13 @@ public class HillSaver : MonoBehaviour
 	public int musicAmplitude;
 	public int soundsAmplitude;
 	public int hillInstructions;
+	public Vector2 screenSize;
 
 	private void Awake()
 	{
+		EnhancedTouchSupport.Enable();
+		TouchSimulation.Enable();
+
 		if (Instance == null)
 		{
 			Instance = this;
@@ -34,14 +40,22 @@ public class HillSaver : MonoBehaviour
 		{
 			LoadIntFields();
 		}
+
+		screenSize = new Vector2(Camera.main.orthographicSize * Camera.main.aspect, Camera.main.orthographicSize);
+	}
+
+	public Vector2 FingerToScreen(Finger finger)
+	{
+		Vector2 result;
+		result.x = 2 * screenSize.x * finger.screenPosition.x / Screen.width - screenSize.x;
+		result.y = 2 * screenSize.y * finger.screenPosition.y / Screen.height - screenSize.y;
+		return result;
 	}
 
 	public void DefaultIntFields()
 	{
-		PlayerPrefs.DeleteAll();
-
 		currentLocation = 1;
-		currentEnergy = 50;
+		currentEnergy = 150;
 		entryUpgrade = 0;
 		continueUpgrade = 0;
 		musicAmplitude = 1;
@@ -52,9 +66,9 @@ public class HillSaver : MonoBehaviour
 	public void SaveIntFields()
 	{
 		PlayerPrefs.SetInt("currentLocation", currentLocation);
-		PlayerPrefs.SetInt("currentBrilliants", currentEnergy);
+		PlayerPrefs.SetInt("currentEnergy", currentEnergy);
 		PlayerPrefs.SetInt("entryUpgrade", entryUpgrade);
-		PlayerPrefs.SetInt("continueUpdgrade", continueUpgrade);
+		PlayerPrefs.SetInt("continueUpgrade", continueUpgrade);
 		PlayerPrefs.SetInt("musicAmplitude", musicAmplitude);
 		PlayerPrefs.SetInt("soundsAmplitude", soundsAmplitude);
 		PlayerPrefs.SetInt("hillInstructions", hillInstructions);
@@ -79,12 +93,12 @@ public class HillSaver : MonoBehaviour
 
 	public void LoadIntFields()
 	{
-		currentLocation = PlayerPrefs.GetInt("IntField1", 0);
-		currentEnergy = PlayerPrefs.GetInt("IntField2", 0);
-		entryUpgrade = PlayerPrefs.GetInt("IntField3", 0);
-		continueUpgrade = PlayerPrefs.GetInt("IntField4", 0);
-		musicAmplitude = PlayerPrefs.GetInt("IntField5", 0);
-		soundsAmplitude = PlayerPrefs.GetInt("IntField6", 0);
-		hillInstructions = PlayerPrefs.GetInt("IntField7", 0);
+		currentLocation = PlayerPrefs.GetInt("currentLocation", 1);
+		currentEnergy = PlayerPrefs.GetInt("currentEnergy", 0);
+		entryUpgrade = PlayerPrefs.GetInt("entryUpgrade", 0);
+		continueUpgrade = PlayerPrefs.GetInt("continueUpgrade", 0);
+		musicAmplitude = PlayerPrefs.GetInt("musicAmplitude", 1);
+		soundsAmplitude = PlayerPrefs.GetInt("soundsAmplitude", 1);
+		hillInstructions = PlayerPrefs.GetInt("hillInstructions", 1);
 	}
 }

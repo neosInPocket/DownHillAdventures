@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 4
-  m_AspectRatio: 0.5629883
+  m_AspectRatio: 0.4619141
 --- !u!114 &684040222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2953,7 +2953,7 @@ MonoBehaviour:
   animationController: {fileID: 1471413926}
   text: {fileID: 1524632632}
   allStringsValues:
-  - welcome to downhill adventures, my dear!
+  - welcome to Bonanza Candy Bliss, my dear!
   - today you will become a real magician - your task is to save this fragile sphere,
     and now I will tell you how to do it!
   - as soon as you start to pass the level, your sphere will begin to fall down onto

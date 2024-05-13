@@ -736,7 +736,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 141.55
+  m_fontSize: 116.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -920,7 +920,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: down hill adventures
+  m_text: Bonanza Candy Bliss
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a8e885b52b9515488f64a323a2036af, type: 2}
   m_sharedMaterial: {fileID: 5698088194862376674, guid: 1a8e885b52b9515488f64a323a2036af, type: 2}
@@ -1175,7 +1175,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.5
+  m_fontSize: 66.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1386,7 +1386,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 88.25
+  m_fontSize: 72.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2589,7 +2589,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 103.4
+  m_fontSize: 84.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2817,7 +2817,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50.05
+  m_fontSize: 47.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3784,7 +3784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AspectMode: 4
-  m_AspectRatio: 0.5629883
+  m_AspectRatio: 0.46191406
 --- !u!114 &1047972842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3798,7 +3798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.77254903, g: 0.77254903, b: 0.77254903, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4789,7 +4789,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 88.15
+  m_fontSize: 72.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4923,7 +4923,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 92.55
+  m_fontSize: 112.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5400,7 +5400,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80.4
+  m_fontSize: 66.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5886,7 +5886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FIRST UPGRADE
+  m_text: gravity coin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a8e885b52b9515488f64a323a2036af, type: 2}
   m_sharedMaterial: {fileID: 5698088194862376674, guid: 1a8e885b52b9515488f64a323a2036af, type: 2}
@@ -6101,7 +6101,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 149.2
+  m_fontSize: 122.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6385,7 +6385,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 103.55
+  m_fontSize: 85.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7480,7 +7480,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FIRST UPGRADE
+  m_text: unlimited emblem
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1a8e885b52b9515488f64a323a2036af, type: 2}
   m_sharedMaterial: {fileID: 5698088194862376674, guid: 1a8e885b52b9515488f64a323a2036af, type: 2}
@@ -7909,7 +7909,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 246.44
+  m_fontSize: 231.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

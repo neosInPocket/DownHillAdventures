@@ -11,5 +11,53 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DownHillContinue.unity
     guid: 2780fdf35e7cc45408de69bad6023750
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene.unity
+    guid: dcad1280f301cc642ab5698c82238044
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 1.unity
+    guid: 63e15c8689e6b91418fe7ecb819ad7c5
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 2.unity
+    guid: 20ff6b91f653c194d909c197c242a6d0
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 3.unity
+    guid: 74023eceffb5f46499a3129f23da1288
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 4.unity
+    guid: d61f02ba9fb3e944a904739f38264c4d
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 5.unity
+    guid: fb7c4be36b089af4fa49be0ef3d3ef70
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 6.unity
+    guid: 2cd93eb91264b044aa68108a67a72867
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 7.unity
+    guid: 9a95f6ea96156244ca51d4039c6aed0c
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 8.unity
+    guid: 7ab0ba58abc6ade40950e8787e66bb0e
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 9.unity
+    guid: 553d450770d7c9e4398d75b7b9dcd6e4
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 10.unity
+    guid: 8498f2e4033d82b4ca63cce22f82582c
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 11.unity
+    guid: 8b80121b7d07f74419abdb8f1fc5818a
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 12.unity
+    guid: b14413a53e2c4a446b0418e37360fce8
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 13.unity
+    guid: bc2ce274863a1ad41b0d30ee96697699
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 14.unity
+    guid: 9410f05b21215fd43a429010e0f6f72c
+  - enabled: 1
+    path: Assets/Scenes/DownHillScene 15.unity
+    guid: 6233d3e1f0e9b8c48aabed3e5eb34140
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 642bbf40d6fc4a94b82fff7e06022270, type: 2}
